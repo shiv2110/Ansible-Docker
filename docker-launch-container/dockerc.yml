@@ -23,7 +23,7 @@
           - name: Pull docker ubuntu image
             docker_image:
                     name: ubuntu
-                    tag: "14.04"
+                    tag: "18.04"
 
           - name: Launch docker container
             docker_container:
